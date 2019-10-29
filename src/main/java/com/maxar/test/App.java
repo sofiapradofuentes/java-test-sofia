@@ -1,4 +1,4 @@
-package com.app;
+package com.maxar.test;
 
 import java.io.BufferedWriter;
 import java.io.File;
