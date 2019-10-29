@@ -4,7 +4,7 @@
   <groupId>com.maxar.test.it-cloud</groupId>
   <artifactId>java-example-integration-test</artifactId>
   <packaging>jar</packaging>
-  <version>>1.0-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   <name>java-example-integration-test</name>
   <url>http://maven.apache.org</url>
   <dependencies>
