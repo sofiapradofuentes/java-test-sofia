@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
     number of lines every N number of seconds.
     Author: Sofia Prado
  */
-public class App 
+public class App
 {
     static File file = new File("testFile.txt"); //Set file name
     static SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.S");
@@ -21,6 +21,7 @@ public class App
     public static void main( String[] args )
     {
         String data = "Java integration test file example"; //Text data for the file
+        System.out.println("Hello world");
         writeFile(data, 20); //Text data for the file and number of lines to write
     }
 
