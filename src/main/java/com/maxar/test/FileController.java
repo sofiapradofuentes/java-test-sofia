@@ -18,8 +18,8 @@ public class FileController {
 
     @RequestMapping("/")
     public String index() {
-        return writeFile(data, 20); //Text data for the file and number of lines to write
         String data = "Java integration test file example"; //Text data for the file
+        return writeFile(data, 20); //Text data for the file and number of lines to write
     }
     private String writeFile(String data, int noOfLines) {
 
